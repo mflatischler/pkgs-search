@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<!-- description part -->
+	<ShortName>pkgs.org</ShortName>
+	<LongName>pkgs - Package Search</LongName>
+	<Description>Search and download Linux packages for Archlinux, Fedora, Ubuntu, CentOS, RHEL, Debian, openSUSE, Mageia, OpenMandriva, Mint, ROSA and Slackware distributions.</Description>
+	<Tags>linux, packages, repository, repositories, distributions, Archlinux, Fedora, Ubuntu, CentOS, RHEL, Debian, openSUSE, Mageia, OpenMandriva, Mint, ROSA, Slackware </Tags>
+	<Image width="16" height="16" type="image/x-icon">http://pkgs.org/static/images/favicon.ico</Image>
+	
+	<!-- author of this file -->
+	<Developer>mflatischler</Developer>
+	
+	<!-- search part -->
+	<Url type="text/html" method="get" template="http://pkgs.org/search/{searchTerms}" />		
+	<Language>en</Language>
+	<InputEncoding>UTF-8</InputEncoding>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	
+	<!-- misc -->
+	<SearchForm>http://pkgs.org/search/</SearchForm>
+</OpenSearchDescription>
